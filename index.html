@@ -144,7 +144,7 @@ function drawEverything() {
 			canvasContext.fillText("Computer Won", 750.5, 353);
 		}
 
-		canvasContext.fillText("click to continue", 750.5, 353);
+		canvasContext.fillText("click to continue", 750.5, 370);
 		return;
 	}
 
@@ -157,7 +157,7 @@ function drawEverything() {
 	colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
 
 	// next line draws the ball
-	colorCircle(ballX, ballY, 10, 'white');
+	colorCircle(ballX, ballY, 10, 'yellow');
 
 	canvasContext.fillText(player1Score, 100, 100);
 	canvasContext.fillText(player2Score, canvas.width-100, 100);
